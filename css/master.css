@@ -717,20 +717,23 @@ body {
   color: #fff;
   font-family: 'nautilus_pompiliusregular';
   letter-spacing: 2.7px;
-  line-height: 100px;
   display: inline; }
 @media (max-width: 767px) {
   .header .restaurant .typing-title h1 {
-    font-size: 40px; } }
+    font-size: 40px;
+    line-height: 40px; } }
 @media (min-width: 768px) {
   .header .restaurant .typing-title h1 {
-    font-size: 55px; } }
+    font-size: 55px;
+    line-height: 50px; } }
 @media (min-width: 992px) {
   .header .restaurant .typing-title h1 {
-    font-size: 70px; } }
+    font-size: 70px;
+    line-height: 80px; } }
 @media (min-width: 1200px) {
   .header .restaurant .typing-title h1 {
-    font-size: 75px; } }
+    font-size: 75px;
+    line-height: 100px; } }
 .header .restaurant .typing-title .typing {
   color: #e75b1e;
   position: relative; }
